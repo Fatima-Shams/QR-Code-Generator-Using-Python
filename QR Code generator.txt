@@ -1,0 +1,3 @@
+import qrcode as qr
+img=qr.make("https://github.com/Fatima-Shams?tab=repositories")
+img.save("My GitHub Repository.png")
